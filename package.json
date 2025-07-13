@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^7.0.0"
-  }
+    "typescript": "^5.8.3",
+    "vite": "^7.0.2"
+  },
+  "types": "*.d.ts",
+  "packageManager": "yarn@4.9.2"
 }

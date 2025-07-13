@@ -1,7 +1,7 @@
-import './style.css';
-import { setupCounter } from './counter.js';
+import "./style.css";
+import { setupCounter } from "./counter";
 
-document.querySelector('#app').innerHTML = `
+document.querySelector("#app").innerHTML = `
   <div>
     <div class="card">
       <div id="counter"></div>
@@ -9,4 +9,4 @@ document.querySelector('#app').innerHTML = `
   </div>
 `;
 
-setupCounter(document.querySelector('#counter'));
+setupCounter(document.querySelector("#counter"));
